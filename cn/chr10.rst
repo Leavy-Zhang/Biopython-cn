@@ -1,17 +1,15 @@
-﻿Chapter 10  Swiss-Prot and ExPASy
+第十章 Swiss-Prot和ExPASy
 =================================
 
-10.1  Parsing Swiss-Prot files
+10.1 解析Swiss-Prot文件
 ------------------------------
 
 Swiss-Prot
-(```http://www.expasy.org/sprot`` <http://www.expasy.org/sprot>`__) is a
-hand-curated database of protein sequences. Biopython can parse the
-“plain text” Swiss-Prot file format, which is still used for the UniProt
-Knowledgebase which combined Swiss-Prot, TrEMBL and PIR-PSD. We do not
-(yet) support the UniProtKB XML file format.
+(```http://www.expasy.org/sprot`` <http://www.expasy.org/sprot>`__) 是一个人工管理的蛋白质序列数据库。
+Biopython能够解析“纯文本”Swiss-prot文件格式，这种格式也用于连接Swiss-Pront, TrEMBL和PIR-PSD的UniProt数据库。
+而我们并不支持使用UniProtKB的XML文件格式。
 
-10.1.1  Parsing Swiss-Prot records
+10.1 解析Swiss-Prot文件
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 In Section \ `5.3.2 <#sec:SeqIO_ExPASy_and_SwissProt>`__, we described
